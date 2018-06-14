@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<layer_ref name="sig.agol_pdf_evw" name_attachment="sig.agol_pdf__attach_evw" field="nom, prenom" field_cible="globalid" epsg="2154" title="test">
+		<layer_intersect name="sig.disposition_urbanisme_par_commune" field="b.nom, b.nom_disposition_urbanisme, b.date_approbation" field_alias="Commune, Document, Date approbation" field_lenth="25, 25, 50" title="Document d'urbanisme">
+		</layer_intersect>
+		<layer_intersect name="sig.zone_urba" field="b.libelle" field_alias="Libelle" field_lenth="20" title="Zone urba">
+		</layer_intersect>
+		<layer_intersect name="sig.ppri" field="b.caract_risq" field_alias="Type risque" field_lenth="50" title="PPRI">
+		</layer_intersect>
+	</layer_ref>
+</data>

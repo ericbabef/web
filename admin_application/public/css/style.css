@@ -1,0 +1,104 @@
+.Fourniture .modal-header, .Restaurant .modal-header {
+	background-color: #5D5D5D; /* #5D5D5D #5D5D5D */
+	color: #ffffff;
+	border-radius: 5px 5px 0 0;
+}
+.Fourniture .modal-header h4, .Restaurant .modal-header h4 {
+	color: #ffffff;
+}
+.Restaurant .modal-header {
+	background-color: #5D5D5D; /* #5D5D5D #5D5D5D */
+}
+.modalimg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover; /* force Ã  couvrir toute la surface sans dÃ©former l'image */
+	background-attachment: scroll; /* fix pour safari sur iphone */
+	height: 150px;
+}
+.Fourniture .modalnfo, .Restaurant .modalnfo {
+	background-color: #5D5D5D;
+	color: #ffffff;
+}
+.Restaurant .modalnfo {
+	background-color: #5D5D5D;
+}
+.modalnfo li {
+	font-size: 0.85em;
+}
+.Fourniture .modalnfo h5, .Restaurant .modalnfo h5 {
+	background-color: #ffffff;
+	color: #5D5D5D;
+	padding: .2em .6em .3em;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+.Restaurant .modalnfo h5 {
+	color: #5D5D5D;
+}
+.Fourniture .close, .Restaurant .close {
+	color: #ffffff;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.Fourniture .close:hover, .Fourniture .close:focus, .Restaurant .close:hover, .Restaurant .close:focus {
+	color: #ffffff;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.modal-body {
+	padding-top: 0px;
+}
+.Fourniture .modalct h5, .Restaurant .modalct h5 {
+	color: #5D5D5D;
+	font-weight: bold;
+}
+.Restaurant .modalct h5 {
+	color: #5D5D5D;
+}
+.modalpic {
+	text-align: right;
+}
+@media (max-width: 767px) {
+	.modalnfo {
+		padding: 5px 15px 5px 15px;
+	}
+	.modalpic {
+		padding: 15px;
+	}
+}
+@media (min-width: 768px) {
+	.modalnfo {
+		border-bottom-right-radius: 6px;
+	}
+	.modalpic {
+		padding: 15px 0 15px 15px;
+	}
+}
+.Fourniture .modal-body a {
+	color: #5D5D5D;
+}
+.Restaurant .modal-body a {
+	color: #5D5D5D;
+}
+.Fourniture .modal-body a:hover, .Fourniture .modal-body a:focus {
+	color: #5D5D5D;
+}
+.Restaurant .modal-body a:hover, .Restaurant .modal-body a:focus {
+	color: #5D5D5D;
+}
+
+/* Leaflet clustering colors
+.marker-cluster-small, .marker-cluster-small div { background-color: rgba(203, 96, 184, 0.6); }
+.marker-cluster-medium, .marker-cluster-medium div { background-color: rgba(161, 13, 89, 0.6); }
+.marker-cluster-large, .marker-cluster-large div { background-color: rgba(80, 28, 81, 0.6); }
+
+// Leaflet clustering colors - IE 6-8 fallback colors
+.leaflet-oldie .marker-cluster-small, .leaflet-oldie .marker-cluster-small div { background-color: rgb(203, 96, 184); }
+.leaflet-oldie .marker-cluster-medium, .leaflet-oldie .marker-cluster-medium div { background-color: rgb(161, 13, 89); }
+.leaflet-oldie .marker-cluster-large, .leaflet-oldie .marker-cluster-large div { background-color: rgb(80, 28, 81); }*/
