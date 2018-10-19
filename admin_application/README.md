@@ -7,7 +7,7 @@ API
 - Leaflet pour la partie cartographique
 - Datatable
 
-[Tester l'application](http://ericbabef.alwaysdata.net/webmapping/rdm/index.php?action=admin)
+[Tester l'application](http://ericbabef.alwaysdata.net/webmapping/appli-run/index.php?action=admin)
 
 Login : rdm
 
